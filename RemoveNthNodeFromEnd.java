@@ -3,7 +3,7 @@
 // Did this code successfully run on Leetcode : Yes
 // Any problem you faced while coding this : No
 // Approach : use two pointers - fast and slow. Place fast (n+1) steps ahead of slow
-// now move both on step ahead together. When fast reaches null, slow is before node to be deleted, just delete it now
+// now move both one step ahead together. When fast reaches null, slow is before node to be deleted, just delete it now
 
 /**
  * Definition for singly-linked list.
